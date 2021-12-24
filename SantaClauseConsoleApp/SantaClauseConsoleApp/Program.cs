@@ -1,45 +1,18 @@
-﻿namespace SantaClauseConsoleApp
+﻿using System;
+using System.Collections.Generic;
+
+namespace SantaClauseConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Question1();
-            Question2();
-            Question3();
-            Question4();
-            Question5();
-            Question6();
-        }
-
-        static void Question1()
-        {
-
-        }
-
-        static void Question2()
-        {
-            
-        }
-
-        static void Question3()
-        {
-            
-        }
-
-        static void Question4()
-        {
-            
-        }
-
-        static void Question5()
-        {
-            
-        }
-
-        static void Question6()
-        {
-            
+            Questions.Question1();
+            Questions.Question2();
+            Questions.Question3();
+            Questions.Question4();
+            Questions.Question5();
+            Questions.Question6();
         }
     }
 }
